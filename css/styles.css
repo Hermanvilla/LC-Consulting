@@ -1,0 +1,254 @@
+/*
+RESET DE ESTILOS
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    max-width: 1960px;
+}
+
+#main{
+    min-height: 100vh;
+}
+
+/*
+#########################################
+TIPOGRAFIAS
+#########################################
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+/*
+#########################################
+ESTILO PARA HEADER
+#########################################
+*/
+
+#header {
+    width: 100%;
+    height: auto;
+    background-color: rgba(38, 6, 11, 1)
+}
+
+.headerLogo {
+    width: 293px;
+    height: 122px;
+}
+
+
+.navHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(38, 6, 11, 1);
+    padding: 20px 20px;
+}
+
+ul li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+}
+
+a{
+    font-style: none;
+    text-decoration: none;
+    color: rgba(217, 188, 134, 1);
+}
+
+.navHeader ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color:rgba(217, 188, 134, 1) ;
+    transition: 1s;
+    font-size: 25px;
+}
+
+
+/*
+###########################################
+FIN DE ESTILO DE HEADER
+###########################################
+*/
+
+/*
+###########################################
+ESTILO FOOTER
+##########################################
+*/
+
+#footer{
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    background-color: rgba(38, 6, 11, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(217, 188, 134, 1);
+    padding: 30px;
+    margin-top: auto;
+}
+
+.foooterText1{
+    font-size: 20px;
+    margin: 0px;
+;
+}
+
+.footerText2{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.footerContacto{
+    width: 170px;
+    padding: 10px;
+}
+
+.footerMedia{
+    width: 170px;
+    padding: 10px;
+}
+
+.fa-brands{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.formFooter {
+    width: 230px;
+    padding: 20px;
+    background-color: white;
+    border: 3px solid rgba(217, 188, 134, 1);
+    border-radius: 10px;
+    align-tracks: center;
+}
+
+.textArea{
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+###########################################
+FIN DE ESTILO DE FOOTER
+###########################################
+*/
+
+/*
+###########################################
+ESTILO INICIO
+##########################################
+*/
+
+.homeTop{
+    width: 100%; 
+    background-color:rgb(165, 165, 165);
+    margin: 0;
+    padding: 0;
+}
+
+.homeTop1{
+    width: 100%; 
+    background-color:rgb(165, 165, 165);
+    margin: 0;
+    padding: 0;
+}
+
+.homeBot{
+    display: flexbox;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(165, 165, 165);
+    height: auto;
+    font-size: 40px;
+}
+
+.botonContactanos{
+    display: flex;
+    padding: 15px;
+    font-size: 18px;
+    font-style: Roboto;
+    margin: 0 auto;
+    border-radius: 20px;
+    border-color: rgba(38, 6, 11, 1);
+}
+
+.cuadroNoticas{
+    display: flex;
+    width: 800px;
+    height: 800px;
+    padding: 100px;
+    background-color: rgba(38, 6, 11, 1);
+    border-radius: 20px;
+    margin: 0 auto;   
+
+}
+
+.cuadroContacto{
+    display: flex;
+    width: 80%;
+    justify-content:space-evenly ;
+    align-items: center;
+    background-color: rgba(38, 6, 11, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(217, 188, 134, 1);
+    padding: 20px 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.telefonoCuadro{
+    padding-right: 15px;
+}
+
+.emailCuadro{
+    padding: 15px;
+}
+
+.ubicacionCuadro{
+    padding: 15px;
+}
+
+/*
+###########################################
+ESTILO ABOGADOS
+##########################################
+*/
+
+#abogadosBot{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.bannerAbogados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.bannerAbogados img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.bannerAbogados h2{
+    color: rgb(14, 14, 14);
+}
+
